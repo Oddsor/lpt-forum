@@ -1,0 +1,18 @@
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="cat">
+			<p class="breadcrumbs"><h4><a href="{U_INDEX}">Forum</a><!-- BEGIN navlinks --><font color=white> &#187;</font> <a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a><!-- END navlinks --></h4></p>
+		<!--	<p class="datetime">{S_TIMEZONE}</p> -->
+		</td>
+	</tr>
+	</table>
+	<!-- IF S_DISPLAY_SEARCH -->
+	<p class="searchbar">
+		<span style="float: {S_CONTENT_FLOW_BEGIN};"><a href="{U_SEARCH_UNANSWERED}">{L_SEARCH_UNANSWERED}</a> | <a href="{U_SEARCH_ACTIVE_TOPICS}">{L_SEARCH_ACTIVE_TOPICS}</a></span>
+		<!-- IF S_USER_LOGGED_IN -->
+		<span style="float: {S_CONTENT_FLOW_END};"><a href="{U_SEARCH_UNREAD}">{L_SEARCH_UNREAD}</a> | <a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a> | <a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a></span>
+		<!-- ENDIF -->
+	</p>
+	<br/>
+
+	<!-- ENDIF -->

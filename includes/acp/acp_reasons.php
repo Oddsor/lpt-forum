@@ -2,7 +2,7 @@
 /**
 *
 * @package acp
-* @version $Id$
+* @version $Id: acp_reasons.php,v 1.24 2007/10/05 14:36:32 acydburn Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

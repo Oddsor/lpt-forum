@@ -2,7 +2,7 @@
 /**
 *
 * @package dbal
-* @version $Id$
+* @version $Id: sqlite.php 8814 2008-09-04 12:01:47Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -303,9 +303,9 @@ class dbal_sqlite extends dbal
 		if (function_exists('sqlite_error_string'))
 		{
 			$error = array(
-				'message'	=> @sqlite_error_string(@sqlite_last_error($this->db_connect_id)),
+			'message'	=> @sqlite_error_string(@sqlite_last_error($this->db_connect_id)),
 				'code'		=> @sqlite_last_error($this->db_connect_id),
-			);
+		);
 		}
 		else
 		{
