@@ -1513,7 +1513,7 @@ if (($mode == 'post' || ($mode == 'edit' && $post_id == $post_data['topic_first_
 $allowed = ($auth->acl_get('f_attach', $forum_id) && $auth->acl_get('u_attach') && $config['allow_attachments'] && $form_enctype);
 
 // Attachment entry
-posting_gen_attachment_entry($attachment_data, $filename_data, $allowed);
+//posting_gen_attachment_entry($attachment_data, $filename_data, $allowed);
 
 // Output page ...
 page_header($page_title, false);
